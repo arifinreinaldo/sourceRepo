@@ -21,7 +21,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd var/www/html/ticket-order-cms/
-            ls
-            git pull
-            arifinreinaldo
+            sudo -i
+            xmQ#jpV7E
+            cd ../../var/www/html/ticket-order-cms
