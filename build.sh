@@ -1,6 +1,3 @@
- 1 contributor
-Executable File  19 lines (12 sloc)  453 Bytes
-  
 #!/bin/sh
 
 mkdir output
