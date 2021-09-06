@@ -23,3 +23,5 @@ jobs:
           script: |
             cd var/www/html/ticket-order-cms/
             ls
+            git pull
+            arifinreinaldo
