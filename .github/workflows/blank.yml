@@ -23,5 +23,3 @@ jobs:
           script: |
             cd var/www/html/ticket-order-cms/
             echo ${{ secrets.PASSWORD }} | sudo -S git pull
-            arifinreinaldo
-            ${{  secrets.API_TOKEN_GITHUB }}
