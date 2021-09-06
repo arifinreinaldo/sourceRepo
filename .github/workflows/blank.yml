@@ -22,4 +22,6 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd var/www/html/ticket-order-cms/
-            ls
+            echo ${{ secrets.PASSWORD }} | sudo -S git pull
+            arifinreinaldo
+            ${{  secrets.API_TOKEN_GITHUB }}
