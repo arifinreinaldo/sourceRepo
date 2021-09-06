@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     container: pandoc/latex
     steps:
-      - name: executing remote ssh commands using password
+      - name: Remote Login
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
@@ -21,6 +21,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            sudo -i
-            xmQ#jpV7E
             cd ../../var/www/html/ticket-order-cms
+            echo ${{ secrets.PASSWORD }} | git pull
+
